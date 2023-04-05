@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-http-server-deployment
+  name: deployment.apps/simple-http-server-deploymen
 spec:
   replicas: 1
   selector:
